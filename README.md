@@ -32,7 +32,7 @@ span {
 ````
 
 Then include your template with a custom directive. Remember to `$compile` the
-template in the link.
+template in the `link` method.
 
 ## The future ##
 
