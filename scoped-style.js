@@ -6,7 +6,8 @@ angular.module("scopedStyle", [])
             parentId = elm.parent().attr("id");
 
         // Add the parentId before each selector, including multiple comma-separated selectors
-        css = css.replace(/(([\},]|^)\s*)([^\s\{])/g, "$1 #" + parentId + " $3");
+        css = css.replace(/(([\},]|^)\s*)([^\s\{])/g, "$1 #" + parentId + " $3")
+          .replace(/#(?= |\{)/, "");
         elm.html(css);
       }
     };
