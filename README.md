@@ -1,7 +1,7 @@
 # scoped-style
 _Scope some CSS._
 
-A quick-and-dirty module to scope a fragment of CSS to a particular HTML element
+A quick-and-dirty angularjs module to scope a fragment of CSS to a particular HTML element
 and make sure it doesn't interfere with the rest of your page. I anticipate
 it'll be most useful in compiled templates, to make modules even more modular.
 
